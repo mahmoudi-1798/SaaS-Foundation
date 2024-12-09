@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block head-title %}
+Homepage - {{ block.super }}
+{% endblock head-title %}
+
+{% block content %}
+
+<h1>Homepage</h1>
+
+{{ queryset }}
+
+{% endblock content %}
